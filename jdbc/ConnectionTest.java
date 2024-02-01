@@ -10,7 +10,7 @@ public class ConnectionTest {
         final String user = "root";
         final String password = "@Wl8917@";
 
-        Connection conection = DriverManager
+        Connection connection = DriverManager
                 .getConnection(url, user, password);
         
         System.out.println("Connection successfully established.");

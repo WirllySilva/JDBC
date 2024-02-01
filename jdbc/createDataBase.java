@@ -18,6 +18,6 @@ public class createDataBase {
         stmt.execute("CREATE DATABASE java_course");
 
         System.out.println("DataBase was created sussesfuly");
-        connection.close();
+        connection.close(); 
     }
 }
